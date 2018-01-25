@@ -10,9 +10,9 @@ namespace ArraySearch
     {
         static void Main(string[] args)
         {
-            var arr = new[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 }.OrderBy(t => t).ToArray();
+            var arr = new[] { -100, -50, -24, -10, -5, -2, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19 }.OrderBy(t => t).ToArray();
             var values = new[] { 5, 3, -1, 18, 1, 7 };
-            var subCol = new[] { 2, 4, 8 };
+            var subCol = new[] { 2, 4, 8, 16 };
 
             foreach (var col in subCol)
             {
